@@ -12,3 +12,4 @@ resources:
   - ${file(./resources/parameterstore.yml)}
   - ${file(./resources/ec2.yml)}
   - ${file(./resources/secrets.yml)}
+  - ${file(./resources/ecr.yml)}
