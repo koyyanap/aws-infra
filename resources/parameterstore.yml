@@ -7,3 +7,11 @@ Resources:
       Type: String
       Value: Andhra university
       Description: SSM Parameter for running date command.
+
+  BasicParameter1:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: subject
+      Type: String
+      Value: computer
+      Description: SSM Parameter for running date command.
