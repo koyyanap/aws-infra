@@ -1,0 +1,9 @@
+---
+Resources:
+  BasicParameter:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: university
+      Type: String
+      Value: Andhra university
+      Description: SSM Parameter for running date command.
