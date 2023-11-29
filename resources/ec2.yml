@@ -1,0 +1,7 @@
+Resources:
+  MyEC2Instance: 
+    Type: AWS::EC2::Instance
+    Properties: 
+      ImageId: "ami-0d92749d46e71c34c"
+      KeyName: "careerbridge"
+      
